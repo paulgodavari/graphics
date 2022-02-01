@@ -1,0 +1,28 @@
+# Platform junk
+.*.swp
+Thumbs.db
+.DS_Store
+
+# Xcode junk
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/*.mode*
+xcuserdata/
+project.xcworkspace/
+
+# Visual Studio junk
+ipch/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.VC.db
+*.VC.opendb
+*.ncb
+stdafx.pch
+*.aps
+*.pchast
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
