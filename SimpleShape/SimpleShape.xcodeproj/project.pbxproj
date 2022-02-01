@@ -14,7 +14,8 @@
 		66695B9627A98278003F90AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66695B9527A98278003F90AE /* Assets.xcassets */; };
 		66695B9927A98278003F90AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66695B9727A98278003F90AE /* LaunchScreen.storyboard */; };
 		66695B9C27A98278003F90AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66695B9B27A98278003F90AE /* main.m */; };
-		66695BA427A98A7D003F90AE /* SimleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66695BA327A98A7C003F90AE /* SimleShapeView.m */; };
+		66695BA427A98A7D003F90AE /* SimpleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66695BA327A98A7C003F90AE /* SimpleShapeView.m */; };
+		66695BB427A9D6BE003F90AE /* SimpleShapeShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 66695BB327A9D6BE003F90AE /* SimpleShapeShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		66695B9827A98278003F90AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66695B9A27A98278003F90AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66695B9B27A98278003F90AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66695BA227A98A7C003F90AE /* SimleShapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimleShapeView.h; sourceTree = "<group>"; };
-		66695BA327A98A7C003F90AE /* SimleShapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimleShapeView.m; sourceTree = "<group>"; };
+		66695BA227A98A7C003F90AE /* SimpleShapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleShapeView.h; sourceTree = "<group>"; };
+		66695BA327A98A7C003F90AE /* SimpleShapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleShapeView.m; sourceTree = "<group>"; };
+		66695BB327A9D6BE003F90AE /* SimpleShapeShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SimpleShapeShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +72,12 @@
 				66695B8D27A98276003F90AE /* SceneDelegate.m */,
 				66695B8F27A98276003F90AE /* ViewController.h */,
 				66695B9027A98276003F90AE /* ViewController.m */,
-				66695BA227A98A7C003F90AE /* SimleShapeView.h */,
-				66695BA327A98A7C003F90AE /* SimleShapeView.m */,
+				66695BA227A98A7C003F90AE /* SimpleShapeView.h */,
+				66695BA327A98A7C003F90AE /* SimpleShapeView.m */,
 				66695B9227A98276003F90AE /* Main.storyboard */,
 				66695B9527A98278003F90AE /* Assets.xcassets */,
 				66695B9727A98278003F90AE /* LaunchScreen.storyboard */,
+				66695BB327A9D6BE003F90AE /* SimpleShapeShader.metal */,
 				66695B9A27A98278003F90AE /* Info.plist */,
 				66695B9B27A98278003F90AE /* main.m */,
 			);
@@ -152,11 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66695BB427A9D6BE003F90AE /* SimpleShapeShader.metal in Sources */,
 				66695B9127A98276003F90AE /* ViewController.m in Sources */,
 				66695B8B27A98276003F90AE /* AppDelegate.m in Sources */,
 				66695B9C27A98278003F90AE /* main.m in Sources */,
 				66695B8E27A98276003F90AE /* SceneDelegate.m in Sources */,
-				66695BA427A98A7D003F90AE /* SimleShapeView.m in Sources */,
+				66695BA427A98A7D003F90AE /* SimpleShapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
